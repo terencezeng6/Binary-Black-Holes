@@ -41,6 +41,8 @@ dp(tests-1)
 #make plot
 a = [x for x in range(len(chances))]
 plt.plot(a, chances)
+plt.xlabel("Distance from Target Square")
+plt.ylabel("Chance to Land on Target")
 plt.show()
 
 #Conclusion: TBA
