@@ -45,8 +45,22 @@ plt.xlabel("Distance from Target Square")
 plt.ylabel("Chance to Land on Target")
 plt.show()
 
-#Conclusion: TBA
+print("The probability of landing on a certain square converges to", chances[39], ".")
+
+#Conclusion (TO BE FINISHED): We can observe several interesting things about this plot. The probability sharply increases until
+#a distance of seven squares to the target, which is to be expected, since seven is the most likely dice roll. We then observe
+#a decrease in probability until a distance of 13, which can be trivially rationalized. However, after that, we observe a subtle 
+#oscillatory pattern with a period of approximately 8. This result is surprising to me, and to be honest, I don't fully
+#understand why it isn't 7, though I have some clues. I'll try my best to come back to finish this conclusion :)
 
 #Aside: one time I was playing with my family and owned the light blue monopoly of hotels on Oriental, Vermont, and Connecticut.
 #To my surprise, the other 3 members passed by my hotels. This happened 3 times! 
-#In my frustration, I coded this program and decided that I was extremely unlucky - the probability that this happens is about ______!
+#In my frustration, I coded this program and decided that I was extremely unlucky - the probability that this happens is about 29.32%!
+#The calculations are as follows:
+#The probabability of passing a certain square converges to around 100% - 12.75% = 87.25%. 
+#Although it's not a perfect calculation, we can generalize the probability of one player passing three squares to be approximately
+#(87.25%)^3 ≈ 66.43%.
+#Likewise, the probability that three players pass the entire monopoly without paying rent is (66.43%)^3 ≈ 29.32%
+#I was definitely unlucky, but not as unlucky as I originally thought. Things that have a lower than 29.32% chance happen all the
+#time - look at the upsets in the FIFA World Cup, for example. Anyway, if you actually read this entire thing, I don't know why you
+#did that, but I really appreciate it!
