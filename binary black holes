@@ -1,6 +1,5 @@
 # Binary Black Holes
 # Computational Physics, 2021
-# Tim Eustice vs Terence Zeng
 
 #importing packages
 import numpy as np
