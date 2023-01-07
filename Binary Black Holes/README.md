@@ -8,7 +8,9 @@ calculated manually.
 
 These calculations involve fairly rudimentary principles such as Kepler's Third Law and the conservation of momentum. For instance, the black holes (treated
 as point masses) must move around a common center of mass, with a common angular frequency such that they remain opposite of each other. The path was iterated
-using Euler's method.
+using Euler's method, shown below.
+
+![inspiral path](https://github.com/terencezeng6/personal-projects/blob/main/Binary%20Black%20Holes/inspiral%20path.JPG)
 
 Besides the path, additional graphs were constructed depicting orbital energy of the system over time, and the system's radius (i.e. half the distance
 between the two black holes).
