@@ -14,3 +14,7 @@ using Euler's method, shown below.
 
 Besides the path, additional graphs were constructed depicting orbital energy of the system over time, and the system's radius (i.e. half the distance
 between the two black holes).
+
+![total energy](https://github.com/terencezeng6/personal-projects/blob/main/Binary%20Black%20Holes/total%20energy%20over%20time.JPG)
+
+![radius](https://github.com/terencezeng6/personal-projects/blob/main/Binary%20Black%20Holes/radius%20over%20time.JPG)
