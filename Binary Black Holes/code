@@ -89,6 +89,14 @@ while t < (3600*24*365*.000001) and np.linalg.norm(m1_pos-m2_pos) > (2*G/c**2)*(
     m1_pos += dt*m1_vel
     m2_pos += dt*m2_vel
     t += dt #updating the time
+    
+#convert distance, radii into km
+m1_x = [i/1000 for i in m1_x]
+m1_y = [i/1000 for i in m1_y]
+m2_x = [i/1000 for i in m2_x]
+m2_y = [i/1000 for i in m2_y]
+com /= 1000
+radius = [i/1000 for i in radius]
 
 #plotting figures - position of object 1, position of object 2, and position of center of mass, respectively
 plt.figure()
@@ -96,12 +104,20 @@ plt.plot(m1_x,m1_y, 'r')
 plt.plot(m2_x,m2_y, 'g')
 plt.plot(com[0],com[1],'o')
 plt.gca().set_aspect('equal')
+plt.xlabel("position, in km")
+plt.ylabel("position, in km")
 plt.show()
-
+    
 #plotting figures - total energy over time and radius over time
 plt.figure()
 plt.plot(time, t_e)
+plt.xlabel("Time, in seconds")
+plt.ylabel("Total energy, in 10^47 * Joules")
 plt.show()
 plt.figure()
+plt.axhline(y = min(radius), color = 'r', linestyle = '--')
 plt.plot(time, radius)
-print("Schwarzschild radius:", min(radius)/1000, "km") #distance between the two black holes where they turn into one black hole
+plt.xlabel("Time, in seconds")
+plt.ylabel("Radius, in km")
+plt.show()
+print("Schwarzschild radius:", min(radius), "km") #distance between the two black holes where they turn into one black hole
