@@ -12,6 +12,8 @@ using Euler's method, shown below.
 
 ![inspiral path](https://github.com/terencezeng6/personal-projects/blob/main/Binary%20Black%20Holes/inspiral%20path.JPG)
 
+<img src="inspiral path.jpg" alt="inspiral path" width="200"/>
+
 Besides the path, additional graphs were constructed depicting orbital energy of the system over time, and the system's radius (i.e. half the distance
 between the two black holes).
 
