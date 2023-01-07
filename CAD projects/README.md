@@ -2,6 +2,8 @@
 
 Description of projects:
 
+<img src="wearable sensor fusion.JPG" alt="wearable sensor" width="600"/>
+
 Wearable Sensor: This rendering is part of the work I did for Bandodkar Research Group at NC State University - the abstract of the project is below. In short, this rendering depicts a biosensor which is to be wrapped around some chronic wound on a person's skin. It has various sensors contained on the brass electrodes, which are very thin as to be flexible and not warp/stretch as skin bends.
 
 Abstract:
