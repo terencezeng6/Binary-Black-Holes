@@ -90,7 +90,7 @@ while t < (3600*24*365*.000001) and np.linalg.norm(m1_pos-m2_pos) > (2*G/c**2)*(
     m2_pos += dt*m2_vel
     t += dt #updating the time
     
-#convert distance, radii into km
+#convert distance and radii into km
 m1_x = [i/1000 for i in m1_x]
 m1_y = [i/1000 for i in m1_y]
 m2_x = [i/1000 for i in m2_x]
